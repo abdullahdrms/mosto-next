@@ -1,0 +1,221 @@
+.container {
+    background-image: url('/img/signin/account-bg.jpg');
+    padding: 30px 0;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container .content {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .content .header {
+    margin-bottom: 80px;
+    position: relative;
+    text-align: center !important;
+}
+
+.container .content .header .backHome {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    display: inline-flex;
+    align-items: center;
+    transition: all ease .3s;
+    text-decoration: none;
+    transform: translateY(-25%);
+}
+
+.container .content .header .logo {
+    display: inline-block;
+    transition: all ease .3s;
+    text-decoration: none;
+}
+
+.container .content .header .logo .image {
+    vertical-align: middle;
+}
+
+.container .content .account {
+    max-width: 540px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background: white;
+    padding: 60px 0;
+}
+
+.container .content .account .accountBody {
+    padding: 10px 40px 0;
+    text-align: center;
+}
+
+.container .content .account .accountBody h4 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: -14px;
+    color: #3b368c;
+    font-weight: 600;
+}
+
+.container .content .account .accountForm {
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+.container .content .account .accountForm .formGroup {
+    margin-bottom: 26px;
+    box-sizing: border-box;
+
+}
+
+.container .content .account .accountForm .texCenter {
+    text-align: center !important;
+
+}
+
+.container .content .account .accountForm .formGroup .formLabel {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    color: #3b368c;
+    display: inline-block;
+    margin-bottom: .9rem;
+}
+
+.container .content .account .accountForm .formGroup .submitButton {
+    border: none;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
+    box-shadow: 2.419px 9.703px 12.48px .52px rgba(232, 58, 153, .5);
+    width: auto;
+    padding: 0 45px;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.container .content .account .accountForm .formGroup .formInput {
+    border: 1px solid rgba(59, 54, 140, .1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #f6f6fa;
+    padding: 0 30px;
+    height: 60px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container .content .account .accountForm .formGroup .signInRecovery {
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    box-sizing: border-box;
+    color: #504c89;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.container .content .account .accountForm .formGroup .signInRecovery a {
+    color: #0403c4;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+
+.container .content .account .or {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.container .content .account .or span {
+    display: inline-block;
+    padding: 0 12px;
+    font-weight: 600;
+    color: #3b368c;
+    text-transform: uppercase;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.container .content .account .accountHeader {
+    padding: 0 40px 40px;
+    text-align: center;
+    padding-bottom: 0 !important;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container .content .account .accountHeader span {
+    margin-bottom: 30px;
+    margin-top: 0.9rem !important;
+    display: block !important;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #504c89;
+}
+
+.container .content .account .accountHeader .signInWith {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 40px;
+    color: #504c89;
+    border: 1px solid #aa9dd0;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+}
+
+.container .content .account .accountHeader .signInWith img {
+    width: 24px;
+    margin-right: 10px;
+    border-style: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.container .content .account .accountHeader .signInWith span {
+    box-sizing: border-box;
+    color: #504c89;
+}
+
+.container .content .account .or::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #dddce7;
+    box-sizing: border-box;
+}

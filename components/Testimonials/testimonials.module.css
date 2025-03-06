@@ -1,0 +1,20 @@
+.mblg {
+    margin-bottom: 3rem !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .tab {   
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .mblg {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .tab2 {   
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
