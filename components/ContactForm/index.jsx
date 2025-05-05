@@ -13,13 +13,14 @@ export default function ContactForm() {
     const [emailError, setEmailError] = useState(false);
     const [message, setMessage] = useState('')
     const [messageDirty, setMessageDirty] = useState(false)
+    const [captchaToken, setCaptchaToken] = useState(null)
 
     function onChange(value) {
-        console.log("Captcha value:", value);
+        setCaptchaToken(value)
     }
 
     const requestHandler = async () => {
-        if (company?.length > 1 && fullname?.length > 1 && phone?.length > 1 && phoneError === false && email?.length > 1 && emailError === false && message?.length > 1) {
+        if (company?.length > 1 && fullname?.length > 1 && phone?.length > 1 && phoneError === false && email?.length > 1 && emailError === false && message?.length > 1 && captchaToken) {
             const response = await fetch('/api/send-mail', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -140,7 +141,7 @@ export default function ContactForm() {
                                     </div> */}
                 </div>
                 <ReCAPTCHA
-                    sitekey="Your client site key"
+                    sitekey="6LeuKy8rAAAAAJ_RWp1KiW9NNu1Ho_7d-EonwUg9"
                     onChange={onChange}
                 />
                 <div className='mb-[23px] translate-y-[50px]'>

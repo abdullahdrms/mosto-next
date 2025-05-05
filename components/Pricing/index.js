@@ -53,7 +53,7 @@ export default function Pricing() {
                                         <li className='border-b-2 text-[16px] border-dotted border-[#bccaea] py-[8px] text-[#3b368c]'>Starter plandaki tüm özellikler</li>
                                         <li className='border-b-2 text-[16px] border-dotted border-[#bccaea] py-[8px] text-[#3b368c]'>Çoklu dil desteği</li>
                                         <li className='border-b-2 text-[16px] border-dotted border-[#bccaea] py-[8px] text-[#3b368c]'>Çoklu kur desteği</li>
-                                        <li className='py-[8px] text-[#3b368c] text-[16px]'>Basit ama modern arayüz</li>
+                                        <li className='py-[8px] text-[#3b368c] text-[16px]'>2 farklı tema seçenegi</li>
                                     </ul>
                                 </div>
                                 <div className='py-[45px] relative z-[9] px-[15px] text-center'>
@@ -72,7 +72,8 @@ export default function Pricing() {
                                     <ul>
                                         <li className='border-b-2 border-dotted border-[#bccaea] text-[16px] py-[8px] text-[#3b368c]'>Pro plandaki tüm özellikler</li>
                                         <li className='border-b-2 border-dotted border-[#bccaea] text-[16px] py-[8px] text-[#3b368c]'>Özel tema & renk düzeni</li>
-                                        <li className='text-[16px] py-[8px] text-[#3b368c]'>Alanadı ile çalışma (örnek: menu.firmaniz.com) isteğe bağlı extra</li>
+                                        <li className='border-b-2 border-dotted border-[#bccaea] text-[16px] py-[8px] text-[#3b368c]'>Alanadı ile çalışma (örnek: menu.firmaniz.com) isteğe bağlı extra</li>
+                                        <li className='text-[16px] py-[8px] text-[#3b368c]'>Menü içerikleriniz, ekibimiz tarafından ücretsiz olarak sisteme entegre edilir</li>
                                     </ul>
                                 </div>
                                 <div className='py-[45px] relative z-[9] px-[15px] text-center'>
