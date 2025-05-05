@@ -16,7 +16,7 @@ export default function SectionFive() {
                         </p>
                     </div>
                     <div className='z-20'>
-                        <Link className='z-20 transition-all duration-300 text-white border border-[#c087fa] rounded-[25px] font-semibold font-sans pt-[10px] pb-[10px] pr-[25px] pl-[25px] hover:text-[#ee4730] hover:bg-white hover:border-[#ee4730]' href='/'>Hemen Başla!</Link>
+                        <Link className='z-20 transition-all duration-300 text-white border border-[#c087fa] rounded-[25px] font-semibold font-sans pt-[10px] pb-[10px] pr-[25px] pl-[25px] hover:text-[#ee4730] hover:bg-white hover:border-[#ee4730]' href='/contact'>Hemen Başla!</Link>
                     </div>
                 </div>
             </div>

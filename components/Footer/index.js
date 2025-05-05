@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
           <div className='text-center text-white pt-[22px] pb-[22px] pl-0 pr-0 border-t border-[#49329b]'>
             <p className='max-[596px]:text-[16px]'>
-              ©2024 Tüm Hakları Saklıdır
+              ©2025 Tüm Hakları Saklıdır
               <Link className='text-[#ee4730] ml-1' href='/'>
                 Gdmenu
               </Link>

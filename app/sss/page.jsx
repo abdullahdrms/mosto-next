@@ -45,11 +45,6 @@ export default function Sss() {
             title: "Paket Seçerken",
             children: [
                 {
-                    id: 5,
-                    title: 'Hangi Paketi Tercih Etmeliyim?',
-                    desc: 'A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy.'
-                },
-                {
                     id: 6,
                     title: 'Paket Değişikliği Yapabilir miyim?',
                     desc: 'Dilediğiniz zaman destek ekibimize ulaşarak mevcut paketinizde değişiklik yapabilir, ihtiyacınıza uygun yeni bir paket seçebilirsiniz.'
@@ -99,17 +94,12 @@ export default function Sss() {
                 {
                     id: 13,
                     title: 'İçeriklerim Silinir mi?',
-                    desc: 'A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy.'
-                },
-                {
-                    id: 14,
-                    title: 'Veri Güvenliği Nasıl Sağlanıyor?',
-                    desc: 'A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. There is no magic formula to write perfect ad copy.'
+                    desc: 'Hayır! İçerikleriniz abonelik boyunca talep etmediğiniz sürece silinmez.'
                 },
                 {
                     id: 15,
                     title: 'Şifremi Unuttum Ne Yapabilirim?',
-                    desc: 'Şifrenizi unuttuğunuzda bizlere ulaşarak yeni şifrenizi belirleyebilirsiniz.'
+                    desc: 'Giriş ekranında "Şifremi Unuttum" bağlantısına tıklayarak gerekli bilgileri girdikten sonra şifre sıfırlama bağlantısı alabilirsiniz.'
                 }
             ]
         }

@@ -75,7 +75,7 @@ export default function index() {
                                 EN
                                 <span><MdOutlineKeyboardArrowDown size={24} className="ml-1 relative bottom-[2px] text-black" /></span>
                             </div> */}
-                            <Link href='/' className="pt-3 pb-3 pr-8 pl-8 border border-solid border-[#665cb2] rounded-3xl ml-2 transition ease-in-out delay-75 text-[#3b368c] font-semibold hover:bg-white max-xl:p-[7px 25px] max-xl:text-sm max-lg:ml-0 max-sm:hidden">
+                            <Link href='/contact' className="pt-3 pb-3 pr-8 pl-8 border border-solid border-[#665cb2] rounded-3xl ml-2 transition ease-in-out delay-75 text-[#3b368c] font-semibold hover:bg-white max-xl:p-[7px 25px] max-xl:text-sm max-lg:ml-0 max-sm:hidden">
                                 HEMEN BAŞLA!
                             </Link>
                         </div>
@@ -94,6 +94,12 @@ export default function index() {
                         <Link onClick={() => setMenu(false)} href='/pricing' className=''>
                             <li className='pl-[15px] leading-[72px] text-[20px] font-semibold pr-[15px] pt-[8px] pb-[8px] text-[#3b368c] transition-all duration-300 border-t border-[rgba(59,54,140,.1)] hover:bg-[rgba(51,64,106,.98)] hover:text-white'>
                                 Fiyatlandırma
+                            </li>
+                        </Link>
+
+                        <Link onClick={() => setMenu(false)} href='/contact' className=''>
+                            <li className='pl-[15px] leading-[72px] text-[20px] font-semibold pr-[15px] pt-[8px] pb-[8px] text-[#3b368c] transition-all duration-300 border-t border-[rgba(59,54,140,.1)] hover:bg-[rgba(51,64,106,.98)] hover:text-white'>
+                                Hemen Başla
                             </li>
                         </Link>
 
