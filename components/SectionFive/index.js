@@ -10,9 +10,9 @@ export default function SectionFive() {
                         <img src="/img/sectionfive/balls.png" alt="" />
                     </div>
                     <div className="w-[50%] max-lg:w-full z-20 relative">
-                        <h3 className="max-w-[380px] mb-[27px] relative text-[36px] leading-[46px] max-lg:text-center max-lg:m-auto max-lg:mb-6 text-[#fff]">Şimdi başla 14 gün ücretsiz kullan!</h3>
+                        <h3 className="max-w-[380px] mb-[27px] relative text-[36px] leading-[46px] max-lg:text-center max-lg:m-auto max-lg:mb-6 text-[#fff]">Şimdi başla 15 gün ücretsiz kullan!</h3>
                         <p className="text-[18px] max-w-[380px] max-lg:text-center max-lg:w-[500px] max-sm:w-full max-lg:m-auto max-lg:mb-6 text-white">
-                            QR Menü ile İşinizi Hızlandırın: 14 Gün Bedava Deneyin, Dijital Devrime Adım Atın!
+                            QR Menü ile İşinizi Hızlandırın: 15 Gün Bedava Deneyin, Dijital Devrime Adım Atın!
                         </p>
                     </div>
                     <div className='z-20'>

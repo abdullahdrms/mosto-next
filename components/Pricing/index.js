@@ -12,7 +12,7 @@ export default function Pricing() {
                     <h5 className="mb-[20px]  text-[#ff8a00] text-center text-[24px] font-semibold max-md:text-[20px]">Muhteşem Özelliklerin Kapsamlı Listesi</h5>
                     <h2 className="mb-[24px] max-w-[620px] text-center leading-[64px] font-bold text-[54px] max-md:text-[36px] max-md:leading-[46px] text-[#3b368c]">Basit, Uygun Fiyatlı Planlar.</h2>
                     <p className="text-[#504c89] mb-[60px] max-w-[620px] text-center text-[19px] font-sans">
-                        Gdmenu'nun ihtiyaçlarınıza göre ölçeklenebilen planları vardır. İşletmenizin boyutuna uygun bir plana abone olun. Tüm planlarda 14 gün deneme sürümü mevcuttur.
+                        Gdmenu'nun ihtiyaçlarınıza göre ölçeklenebilen planları vardır. İşletmenizin boyutuna uygun bir plana abone olun. Tüm planlarda 15 gün deneme sürümü mevcuttur.
                     </p>
                     <ul className='relative flex text-[#504c89] z-[99] justify-between w-[200px] mb-[50px]'>
                         <li onClick={() => setCheckbox(false)} className={`capitalize px-[10px] text-[#504c89] py-[5px] w-[50%] relative cursor-pointer ${checkbox === true && 'before:bg-gradient-to-r before:from-[#4050e9] before:to-[#a12ffe] before:absolute before:content-[""] before:w-[70px] before:h-[40px] before:rounded-[20px] before:right-[-43px] before:top-[50%] before:mt-[-20px] after:absolute after:content-[""] after:w-[30px] after:h-[30px] after:bg-[#fff] after:rounded-[15px] after:mt-[-15px] after:z-[1] after:top-[50%] after:right-[-38px]'} select-none`}>Aylık</li>

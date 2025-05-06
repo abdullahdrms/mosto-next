@@ -1,4 +1,5 @@
 "use client"
+import Head from 'next/head';
 import React, { useState } from 'react'
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -25,7 +26,7 @@ export default function ContactForm() {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    to: 'abdullah.drms4@gmail.com',
+                    to: 'info@gdmenu.com',
                     subject: 'Gdmenu İletişim Formu',
                     message: `Firma adı: ${company},Yetkili Ad Soyad: ${fullname},Telefon: ${phone},Email: ${email}, Mesaj: ${message}`,
                 }),
@@ -141,7 +142,7 @@ export default function ContactForm() {
                                     </div> */}
                 </div>
                 <ReCAPTCHA
-                    sitekey="6LeuKy8rAAAAAJ_RWp1KiW9NNu1Ho_7d-EonwUg9"
+                    sitekey="6LfBOTArAAAAALVCTYqxh3UdNCR1og5wiPNxtM5J"
                     onChange={onChange}
                 />
                 <div className='mb-[23px] translate-y-[50px]'>
